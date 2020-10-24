@@ -1,0 +1,5 @@
+sources:
+    - SourceryTest
+templates:
+    - Templates
+output: SourceryTest/Generated
