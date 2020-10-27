@@ -7,6 +7,8 @@
 
 import Foundation
 
+protocol CaseIterable2 { }
+
 enum Direction: CaseIterable2 {
 	case north, south, east, west
 }
