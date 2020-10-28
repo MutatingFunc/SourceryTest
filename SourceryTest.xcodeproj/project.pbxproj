@@ -15,6 +15,8 @@
 		1A29BB3425445EAF0065C95B /* SourceryTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29BB3325445EAF0065C95B /* SourceryTestUITests.swift */; };
 		1A29BB5E254468D00065C95B /* CaseIterable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29BB5D254468D00065C95B /* CaseIterable.generated.swift */; };
 		1A29BB6325446A0E0065C95B /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29BB6225446A0E0065C95B /* Direction.swift */; };
+		1A29BB82254A187C0065C95B /* AutoCodable.swifttemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1A29BB81254A187C0065C95B /* AutoCodable.swifttemplate */; };
+		1A29BB8A254A1A470065C95B /* AutoCodable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29BB89254A1A470065C95B /* AutoCodable.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1A29BB50254467650065C95B /* CaseIterable.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = CaseIterable.stencil; sourceTree = "<group>"; };
 		1A29BB5D254468D00065C95B /* CaseIterable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseIterable.generated.swift; sourceTree = "<group>"; };
 		1A29BB6225446A0E0065C95B /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		1A29BB81254A187C0065C95B /* AutoCodable.swifttemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AutoCodable.swifttemplate; sourceTree = "<group>"; };
+		1A29BB89254A1A470065C95B /* AutoCodable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCodable.generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				1A29BB50254467650065C95B /* CaseIterable.stencil */,
+				1A29BB81254A187C0065C95B /* AutoCodable.swifttemplate */,
 			);
 			path = Templates;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 		1A29BB5C254468D00065C95B /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				1A29BB89254A1A470065C95B /* AutoCodable.generated.swift */,
 				1A29BB5D254468D00065C95B /* CaseIterable.generated.swift */,
 			);
 			path = Generated;
@@ -261,6 +267,7 @@
 			files = (
 				1A29BB1E25445EAE0065C95B /* Preview Assets.xcassets in Resources */,
 				1A29BB1B25445EAE0065C95B /* Assets.xcassets in Resources */,
+				1A29BB82254A187C0065C95B /* AutoCodable.swifttemplate in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +295,7 @@
 				1A29BB1925445EAD0065C95B /* ContentView.swift in Sources */,
 				1A29BB1725445EAD0065C95B /* SourceryTestApp.swift in Sources */,
 				1A29BB5E254468D00065C95B /* CaseIterable.generated.swift in Sources */,
+				1A29BB8A254A1A470065C95B /* AutoCodable.generated.swift in Sources */,
 				1A29BB6325446A0E0065C95B /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

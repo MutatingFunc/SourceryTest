@@ -1,10 +1,10 @@
 
 protocol Tests {} // The file doesn't update when it's empty
 
-{% for enum in types.enums.implementing.CaseIterable2|enum %}
+{% for enum in types.enum.implementing.CaseIterable2 %}
 extension {{ enum.name }} {
 	static let allCases: [{{ enum.name }}] = [
-	{% for case in enum.cases %} .{{ case.name }}
+	{% for case in enum.cases %} .{{ case.name }},
 	{% endfor %}]
 }
 {% endfor %}
